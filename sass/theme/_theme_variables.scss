@@ -1,0 +1,76 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+$font-family-sans-serif: "pfhandbookpro", Arial, sans-serif;
+$brand-primary:         #7852B2; //#ff6d5a
+
+// Font-Size
+$base-font-size: 1.25rem;
+
+// Line-Height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+
+$bp-xxsmall-max: 25em; /* 400px */
+$bp-xsmall-max: 35.9375em; /* 575px */
+$bp-small-max: 47.9375em; /* 767px */
+$bp-medium-max: 61.9375em; /* 991px */
+$bp-large-max: 74.9375em; /* 1199px */
+$bp-xlarge-max: 119.9375em; /* 1919px */
+$bp-xxlarge-max: 159.9375em; /* 2559px */
+
+$bp-xsmall: 25.0625em; /* 401px */
+$bp-small: 36em; /* 576px */
+$bp-medium: 48em; /* 768px */
+$bp-large: 62em; /* 992px */
+$bp-xlarge: 75em; /* 1200px */
+$bp-xxlarge: 120em; /* 1920px */
+$bp-xxxlarge: 160em; /* 2560px */
+
+$mq-xxsmall-max: "screen and (max-width: #{$bp-xxsmall-max})";
+$mq-xsmall-max: "screen and (max-width: #{$bp-xsmall-max})";
+$mq-small-max: "screen and (max-width: #{$bp-small-max})";
+$mq-medium-max: "screen and (max-width: #{$bp-medium-max})";
+$mq-large-max: "screen and (max-width: #{$bp-large-max})";
+$mq-xlarge-max: "screen and (max-width: #{$bp-xlarge-max})";
+$mq-xxlarge-max: "screen and (max-width: #{$bp-xxlarge-max})";
+
+$mq-small-medium: "screen and (min-width: #{$bp-small}) and (max-width: #{$bp-small-max})";
+$mq-medium-large: "screen and (min-width: #{$bp-medium}) and (max-width: #{$bp-medium-max})";
+$mq-large-xlarge: "screen and (min-width: #{$bp-large}) and (max-width: #{$bp-large-max})";
+$mq-xlarge-xxlarge: "screen and (min-width: #{$bp-xlarge}) and (max-width: #{$bp-xlarge-max})";
+$mq-xxlarge-xxxlarge: "screen and (min-width: #{$bp-xxlarge}) and (max-width: #{$bp-xxlarge-max})";
+
+$mq-xsmall: "screen and (min-width: #{$bp-xsmall})";
+$mq-small: "screen and (min-width: #{$bp-small})";
+$mq-medium: "screen and (min-width: #{$bp-medium})";
+$mq-large: "screen and (min-width: #{$bp-large})";
+$mq-xlarge: "screen and (min-width: #{$bp-xlarge})";
+$mq-xxlarge: "screen and (min-width: #{$bp-xxlarge})";
+$mq-xxxlarge: "screen and (min-width: #{$bp-xxxlarge})";
+$mq-retina: "screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+$mq-xsmall-portrait: "screen and (min-width: #{$bp-xsmall})and (orientation: portrait)";
+$mq-small-portrait: "screen and (min-width: #{$bp-small})and (orientation: portrait)";
+$mq-medium-portrait: "screen and (min-width: #{$bp-medium})and (orientation: portrait)";
+$mq-large-portrait: "screen and (min-width: #{$bp-large})and (orientation: portrait)";
+$mq-xlarge-portrait: "screen and (min-width: #{$bp-xlarge})and (orientation: portrait)";
+$mq-xxlarge-portrait: "screen and (min-width: #{$bp-xxlarge})and (orientation: portrait)";
+$mq-xxxlarge-portrait: "screen and (min-width: #{$bp-xxxlarge})and (orientation: portrait)";
+
+$mq-medium-max-portrait: "screen and (max-width: #{$bp-medium-max})and (orientation: portrait)";
+
+$mx-up-link-fix: "screen and (min-width: #{$bp-medium}) and (max-width: 1280px)";
+
+$mx-ipad: "only screen and (min-device-width: 768px) and (max-device-width: 1024px)";
+$mx-ipad-portrait: "only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)";
+$mx-ipad-landscape: "only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)";
+
+$mx-samsung-ten: "only screen and (min-device-width: 800px) and (max-device-width: 1280px)";
+$mx-samsung-ten-portrait: "only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait)";
+$mx-samsung-ten-landscape: "only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape)";
